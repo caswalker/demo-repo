@@ -117,7 +117,7 @@ resource "aws_s3_bucket" "logs" {
   acl    = "log-delivery-write"
   versioning {
     enabled = true
-  }
+  }d
   server_side_encryption_configuration {
     rule {
       apply_server_side_encryption_by_default {
